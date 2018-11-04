@@ -10,7 +10,7 @@
 namespace PapoDeBicho.Pages {
     
     
-    public partial class Home {
+    public partial class Animais {
         
         /// <summary>
         /// Controle form1.
@@ -94,30 +94,30 @@ namespace PapoDeBicho.Pages {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// Controle btnOngsPendentes.
+        /// Controle btnAnimaisPendentes.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnOngsPendentes;
+        protected global::System.Web.UI.WebControls.Button btnAnimaisPendentes;
         
         /// <summary>
-        /// Controle btnOngsCadastrados.
+        /// Controle btnAnimaisCadastrados.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnOngsCadastrados;
+        protected global::System.Web.UI.WebControls.Button btnAnimaisCadastrados;
         
         /// <summary>
-        /// Controle btnOngsBanidos.
+        /// Controle btnAnimaisBanidos.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnOngsBanidos;
+        protected global::System.Web.UI.WebControls.Button btnAnimaisBanidos;
     }
 }

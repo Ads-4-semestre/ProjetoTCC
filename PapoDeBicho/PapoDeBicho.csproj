@@ -78,13 +78,62 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Imagens\Cinza - logo.png" />
+    <Content Include="Pages\Animais.aspx" />
+    <Content Include="Pages\AnimaisBanidos.aspx" />
+    <Content Include="Pages\AnimaisCadastrados.aspx" />
+    <Content Include="Pages\AnimaisPendentes.aspx" />
+    <Content Include="Pages\Configuração.aspx" />
     <Content Include="Pages\Home.aspx" />
     <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\Ongs.aspx" />
+    <Content Include="Pages\OngsBanidas.aspx" />
+    <Content Include="Pages\OngsCadastradas.aspx" />
+    <Content Include="Pages\OngsPendentes.aspx" />
+    <Content Include="Pages\Postagens.aspx" />
+    <Content Include="Pages\Usuarios.aspx" />
+    <Content Include="Pages\UsuariosBanidos.aspx" />
+    <Content Include="Pages\UsuariosCadastrados.aspx" />
+    <Content Include="Pages\UsuariosPendentes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Animais.aspx.cs">
+      <DependentUpon>Animais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Animais.aspx.designer.cs">
+      <DependentUpon>Animais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AnimaisBanidos.aspx.cs">
+      <DependentUpon>AnimaisBanidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AnimaisBanidos.aspx.designer.cs">
+      <DependentUpon>AnimaisBanidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AnimaisCadastrados.aspx.cs">
+      <DependentUpon>AnimaisCadastrados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AnimaisCadastrados.aspx.designer.cs">
+      <DependentUpon>AnimaisCadastrados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AnimaisPendentes.aspx.cs">
+      <DependentUpon>AnimaisPendentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AnimaisPendentes.aspx.designer.cs">
+      <DependentUpon>AnimaisPendentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuração.aspx.cs">
+      <DependentUpon>Configuração.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuração.aspx.designer.cs">
+      <DependentUpon>Configuração.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -99,6 +148,69 @@
     </Compile>
     <Compile Include="Pages\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Ongs.aspx.cs">
+      <DependentUpon>Ongs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Ongs.aspx.designer.cs">
+      <DependentUpon>Ongs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OngsBanidas.aspx.cs">
+      <DependentUpon>OngsBanidas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OngsBanidas.aspx.designer.cs">
+      <DependentUpon>OngsBanidas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OngsCadastradas.aspx.cs">
+      <DependentUpon>OngsCadastradas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OngsCadastradas.aspx.designer.cs">
+      <DependentUpon>OngsCadastradas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OngsPendentes.aspx.cs">
+      <DependentUpon>OngsPendentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OngsPendentes.aspx.designer.cs">
+      <DependentUpon>OngsPendentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Postagens.aspx.cs">
+      <DependentUpon>Postagens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Postagens.aspx.designer.cs">
+      <DependentUpon>Postagens.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\UsuariosBanidos.aspx.cs">
+      <DependentUpon>UsuariosBanidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\UsuariosBanidos.aspx.designer.cs">
+      <DependentUpon>UsuariosBanidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\UsuariosCadastrados.aspx.cs">
+      <DependentUpon>UsuariosCadastrados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\UsuariosCadastrados.aspx.designer.cs">
+      <DependentUpon>UsuariosCadastrados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\UsuariosPendentes.aspx.cs">
+      <DependentUpon>UsuariosPendentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\UsuariosPendentes.aspx.designer.cs">
+      <DependentUpon>UsuariosPendentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

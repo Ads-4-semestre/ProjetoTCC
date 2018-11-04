@@ -10,16 +10,16 @@
 namespace PapoDeBicho.Pages {
     
     
-    public partial class Home {
+    public partial class Usuarios {
         
         /// <summary>
-        /// Controle form1.
+        /// Controle form2.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
         
         /// <summary>
         /// Controle Label1.
@@ -94,30 +94,39 @@ namespace PapoDeBicho.Pages {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// Controle btnOngsPendentes.
+        /// Controle btnUsuarioPendentes.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnOngsPendentes;
+        protected global::System.Web.UI.WebControls.Button btnUsuarioPendentes;
         
         /// <summary>
-        /// Controle btnOngsCadastrados.
+        /// Controle btnUsuariosCadastrados.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnOngsCadastrados;
+        protected global::System.Web.UI.WebControls.Button btnUsuariosCadastrados;
         
         /// <summary>
-        /// Controle btnOngsBanidos.
+        /// Controle btnUsuariosBanidos.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnOngsBanidos;
+        protected global::System.Web.UI.WebControls.Button btnUsuariosBanidos;
+        
+        /// <summary>
+        /// Controle form1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
     }
 }
