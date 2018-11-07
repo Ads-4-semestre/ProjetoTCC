@@ -66,7 +66,7 @@
                             <asp:Button ID="btnUsuario" runat="server" Text="Usuário" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
                             <br />
                             <br />
-                            <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                            <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px" OnClick="btnAnimal_Click"/>
                             <br />
                             <br />
                             <asp:Button ID="btnPostagens" runat="server" Text="Postagens" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>

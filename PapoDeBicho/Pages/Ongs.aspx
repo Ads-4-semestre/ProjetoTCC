@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="PapoDeBicho.Pages.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ongs.aspx.cs" Inherits="PapoDeBicho.Pages.Ongs" %>
 
 <!DOCTYPE html>
 
@@ -6,15 +6,8 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 50%;
-            height: auto;
-        }
-        .auto-style2 {
-            width: 50%;
-            height: auto;
-        }
+ <style type="text/css">
+
         .auto-style3 {
             height: auto;
             width: auto;
@@ -23,34 +16,14 @@
             width: 100%;
             height: auto;
         }
-        .tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
-}
-
-.tablink:hover {
-    background-color: #777;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 100px 20px;
-    height: 100%;
-}
-
-#Home {background-color: #57CDD7;}
-#News {background-color: #57CDD7;}
-#Contact {background-color: #57CDD7;}
-#About {background-color: #57CDD7;}
+        .auto-style1 {
+            width: 50%;
+            height: auto;
+        }
+        .auto-style2 {
+            width: 50%;
+            height: auto;
+        }
         .auto-style5 {
             width: 25%;
             height: auto;
@@ -62,12 +35,13 @@
         .auto-style7 {
             height: 430px;
         }
-        </style>
+    </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <div  style="background-color:#57CDD7; padding: 5pt" class="auto-style3" >
+          <div>
+             <div  style="background-color:#57CDD7; padding: 5pt" class="auto-style3" >
                   <table style="width:100%; height: 24px;" class="auto-style4">
                     <tr>
                         <td class="auto-style1">
@@ -85,39 +59,44 @@
         <table class="auto-style4">
                     <tr>
                         <td class="auto-style5">
+                            <div class="auto-style4">
                             <br />
-                            <asp:Button ID="btnOng" runat="server" Text="ONGs" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px" />
-                            <br />
-                            <br />
-                            <asp:Button ID="btnUsuario" runat="server" Text="Usuário" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                            <asp:Button ID="btnOng" runat="server" Text="ONGs" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnOng_Click"  />
                             <br />
                             <br />
-                            <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                            <asp:Button ID="btnUsuario" runat="server" Text="Usuário" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnUsuario_Click"/>
                             <br />
                             <br />
-                            <asp:Button ID="btnPostagens" runat="server" Text="Postagens" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                            <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnAnimal_Click" />
                             <br />
                             <br />
-                            <asp:Button ID="btnConfig" runat="server" Text="Configuração" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                            <asp:Button ID="btnPostagens" runat="server" Text="Postagens" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnPostagens_Click"/>
                             <br />
                             <br />
-                            <br />
+                            <asp:Button ID="btnConfig" runat="server" Text="Configuração" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnConfig_Click"/>
                             <br />
                             <br />
                             <br />
+                            <br />
+                            <br />
+                            <br />
+                            </div>
                         </td>
                         <td class="auto-style6">
-                            <div class="auto-style7">
-                                <asp:Label ID="Label2" runat="server" Text="ONGs " Font-Size="20pt"></asp:Label>
+                            <div class="auto-style7" style="text-align:center">
+                                <asp:Label ID="Label2" runat="server" Text="ONGs" Font-Size="20pt" Font-Underline="False"></asp:Label>
                                 <br />
                                 <br />
-                            <asp:Button ID="btnOngsPendentes" runat="server" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" Text="Pendentes" />
                                 <br />
                                 <br />
-                            <asp:Button ID="btnOngsCadastrados" runat="server" Text="Cadastrados" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" />
+                                <br />
+                            <asp:Button ID="btnOngsPendentes" runat="server" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="#666666" Width="100%" Height="70px" Text="Pendentes" OnClick="btnOngsPendentes_Click" />
                                 <br />
                                 <br />
-                            <asp:Button ID="btnOngsBanidos" runat="server" Text="Banidos" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px"/>
+                            <asp:Button ID="btnOngsCadastrados" runat="server" Text="Cadastrados" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="#666666" Width="100%" Height="70px" OnClick="btnOngsCadastrados_Click" />
+                                <br />
+                                <br />
+                            <asp:Button ID="btnOngsBanidos" runat="server" Text="Banidos" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="#666666" Width="100%" Height="70px"/>
                             </div>
                             </td>
                     </tr>                            
@@ -125,7 +104,5 @@
         
        
     </form>
-  
-
 </body>
 </html>

@@ -5,57 +5,40 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        .auto-style4 {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
     
         <div style="height: auto">
-            <div  style="background-color:#57CDD7; height: auto; width:100%; padding: 5pt" >
-                  <table style="width:100%;">
-                    <tr>
-                        <td  style="width:50%">
-                            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="25pt" Text="Papo De Bicho" Font-Italic="False" Font-Names="Comic Sans MS"></asp:Label>
-                            <br />                        
-                        </td>
-                        <td  style="width:50%s">
-                            <div style="text-align:right; height: 105px; padding:10pt">
-                                <asp:Label ID="Label3"  runat="server" Text="Email: "></asp:Label>&nbsp;<asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
-                                <br />
-                                <br />
-                                <asp:Label ID="Label4" runat="server" Text="Senha: "></asp:Label>
-                                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                                <br />
-                                <br />
-                                <asp:Button ID="btnLogar" runat="server" BackColor="#235357" BorderColor="#235357" BorderStyle="Groove" Font-Bold="True" Font-Names="Arial" ForeColor="White" Text="Login" />
-                            </div>
-                        </td>
-                    </tr>                            
-                </table>   
+            <div  style=" height: auto; width:100%; padding: 5pt" >
+                  <div style="text-align:center; " class="auto-style4">
+                        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="35pt" Text="Papo De Bicho" Font-Italic="False" Font-Names="Comic Sans MS" ForeColor="#666666"></asp:Label>
+                        <br />                        
+                  </div>    
+                
             </div>
-            <div  height: auto; width:100%; padding: 5pt">
-
+            <div style="padding: 5pt; text-align:center; align-self:center; align-content:center" class="auto-style4">
+                <div class="auto-style4" style="padding-top:50px; text-align: center">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagens/Cinza - logo.png" Width="250px" Height="207px" />
+                    <br />
+                    <br />
+                    <asp:TextBox ID="txtEmail" runat="server" Height="27px" Width="338px" Font-Bold="True" ForeColor="Silver" BorderColor="#666666" BorderStyle="Solid">Email
+                    </asp:TextBox>
                 <br />
-
-                <table style="width:100%;">
-                    <tr>
-                        <td  style="width:50%; text-align: center">
-                            <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagens/Cinza - logo.png" Width="400px" />
-                        </td>
-                        <td  style="width:50%; text-align: center; font-size: 30px;">
-                            Sistema de gerenciamento &quot;Papo de Bicho&quot;.<br />
-                            <br />
-                            Faça login para: 
-                            <br />
-                            <br />
-                            Visualizar, Editar, Adicionar, Banir e Administrar os registros dos usuarios do Aplicativo.<br />
-                            <br />
-                            &quot;Papo de Bicho&quot; Cuidando sempre do seu Bichinho.<br />
-                            <br />
-                        </td>
-                    </tr>
-                            
-                </table>
+                <br />
+                <asp:TextBox ID="TextBox1" runat="server" Height="27px" Width="338px" Font-Bold="True" ForeColor="Silver" BorderColor="#666666" BorderStyle="Solid">Senha
+                </asp:TextBox>
+                <br />
+                <br />
+                <asp:Button ID="btnLogar" runat="server" BackColor="#333333" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Text="Login" Height="30px" OnClick="btnLogar_Click" Width="250px" />
+                </div>
+                <br />
 
             </div>
         </div>

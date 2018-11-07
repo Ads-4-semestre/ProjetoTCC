@@ -39,7 +39,7 @@
     </style>
 </head>
 <body>
-    <form id="form2" runat="server">
+    <form id="form1" runat="server">
         <div>
             <div  style="background-color:#57CDD7; padding: 5pt" class="auto-style3" >
                   <table style="width:100%; height: 24px;" class="auto-style4">
@@ -98,12 +98,6 @@
                 </table>   
         
        
-    </form>
-  
-
-    <form id="form1" runat="server">
-        <div>
-        </div>
     </form>
 </body>
 </html>

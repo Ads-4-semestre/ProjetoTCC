@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-    <form id="form2" runat="server">
+    <form id="form1" runat="server">
         <div>
             <div  style="background-color:#57CDD7; padding: 5pt" class="auto-style3" >
                   <table style="width:100%; height: 24px;" class="auto-style4">
@@ -59,19 +59,19 @@
                     <tr>
                         <td class="auto-style5">
                             <br />
-                            <asp:Button ID="btnOng" runat="server" Text="ONGs" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px" />
+                            <asp:Button ID="btnOng" runat="server" Text="ONGs" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnOng_Click" />
                             <br />
                             <br />
-                            <asp:Button ID="btnUsuario" runat="server" Text="Usuário" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                            <asp:Button ID="btnUsuario" runat="server" Text="Usuário" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnUsuario_Click"/>
                             <br />
                             <br />
-                            <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                            <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnAnimal_Click"/>
                             <br />
                             <br />
-                            <asp:Button ID="btnPostagens" runat="server" Text="Postagens" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                            <asp:Button ID="btnPostagens" runat="server" Text="Postagens" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnPostagens_Click"/>
                             <br />
                             <br />
-                            <asp:Button ID="btnConfig" runat="server" Text="Configuração" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                            <asp:Button ID="btnConfig" runat="server" Text="Configuração" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnConfig_Click"/>
                             <br />
                             <br />
                             <br />
@@ -80,29 +80,28 @@
                             <br />
                         </td>
                         <td class="auto-style6">
-                            <div class="auto-style7">
+                            <div class="auto-style7" style="text-align: center">
                                 <asp:Label ID="Label2" runat="server" Text="Usuários" Font-Size="20pt"></asp:Label>
                                 <br />
                                 <br />
-                            <asp:Button ID="btnUsuarioPendentes" runat="server" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" Text="Pendentes" />
                                 <br />
                                 <br />
-                            <asp:Button ID="btnUsuariosCadastrados" runat="server" Text="Cadastrados" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" />
+                                <br />
+                            <asp:Button ID="btnUsuarioPendentes" runat="server" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="#666666" Width="100%" Height="70px" Text="Pendentes" OnClick="btnUsuarioPendentes_Click" />
                                 <br />
                                 <br />
-                            <asp:Button ID="btnUsuariosBanidos" runat="server" Text="Banidos" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px"/>
+                            <asp:Button ID="btnUsuariosCadastrados" runat="server" Text="Cadastrados" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="#666666" Width="100%" Height="70px" OnClick="btnUsuariosCadastrados_Click" />
+                                <br />
+                                <br />
+                            <asp:Button ID="btnUsuariosBanidos" runat="server" Text="Banidos" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="#666666" Width="100%" Height="70px" OnClick="btnUsuariosBanidos_Click"/>
                             </div>
                             </td>
                     </tr>                            
-                </table>   
+                </table>
         
        
     </form>
   
 
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
 </body>
 </html>

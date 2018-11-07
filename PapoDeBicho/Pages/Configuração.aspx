@@ -39,7 +39,7 @@
     </style>
 </head>
 <body>
-    <form id="form2" runat="server">
+    <form id="form1" runat="server">
         <div>
             <div  style="background-color:#57CDD7; padding: 5pt" class="auto-style3" >
                   <table style="width:100%; height: 24px;" class="auto-style4">
@@ -57,74 +57,66 @@
             </div>
         </div>
         <table class="auto-style4">
-                    <tr>
-                        <td class="auto-style5">
-                            <br />
-                            <asp:Button ID="btnOng" runat="server" Text="ONGs" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px" />
-                            <br />
-                            <br />
-                            <asp:Button ID="btnUsuario" runat="server" Text="Usuário" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
-                            <br />
-                            <br />
-                            <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
-                            <br />
-                            <br />
-                            <asp:Button ID="btnPostagens" runat="server" Text="Postagens" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
-                            <br />
-                            <br />
-                            <asp:Button ID="btnConfig" runat="server" Text="Configuração" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                            <br />
-                        </td>
-                        <td class="auto-style6">
-                            <div class="auto-style7">
-                                <asp:Label ID="Label2" runat="server" Text="Configurações" Font-Size="20pt"></asp:Label>
-                                <br />
-                                <br />
-                                <asp:Label ID="Label3" runat="server" Text="O que desejo ver: "></asp:Label>
-                                <br />
-                                <asp:DropDownList ID="DropDownList1" runat="server" Height="21px" Width="219px">
-                                </asp:DropDownList>
-                                <br />
-                                <br />
-                                <br />
-                                <asp:Label ID="Label4" runat="server" Text="Inserir Usuários Administrativos"></asp:Label>
-                                :<br />
-                                <asp:TextBox ID="TextBox1" runat="server" Height="17px" Width="214px"></asp:TextBox>
-                                <br />
-                                <br />
-                                <br />
-                                Inserir Espécies:
-                                <br />
-                                <asp:TextBox ID="TextBox2" runat="server" Height="16px" Width="212px"></asp:TextBox>
-                                <br />
-                                <br />
-                                <br />
-                                <asp:Label ID="Label5" runat="server" Text="Nome: "></asp:Label>
-                                <asp:TextBox ID="TextBox3" runat="server" Width="340px"></asp:TextBox>
-                                <br />
-                                <br />
-                                Senha:
-                                <asp:TextBox ID="TextBox4" runat="server" Width="340px"></asp:TextBox>
-                                <br />
-                                <br />
-                                <asp:Button ID="Button1" runat="server" BackColor="Aqua" BorderStyle="None" Text="Salvar" Width="392px" />
-                            </div>
-                            </td>
-                    </tr>                            
-                </table>   
-        
-       
-    </form>
-  
-
-    <form id="form1" runat="server">
-        <div>
-        </div>
+            <tr>
+                <td class="auto-style5">
+                    <br />
+                    <asp:Button ID="btnOng" runat="server" Text="ONGs" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px" />
+                    <br />
+                    <br />
+                    <asp:Button ID="btnUsuario" runat="server" Text="Usuário" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                    <br />
+                    <br />
+                    <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                    <br />
+                    <br />
+                    <asp:Button ID="btnPostagens" runat="server" Text="Postagens" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                    <br />
+                    <br />
+                    <asp:Button ID="btnConfig" runat="server" Text="Configuração" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td class="auto-style6">
+                    <div class="auto-style7">
+                        <asp:Label ID="Label2" runat="server" Text="Configurações" Font-Size="20pt"></asp:Label>
+                        <br />
+                        <br />
+                        <asp:Label ID="Label3" runat="server" Text="O que desejo ver: "></asp:Label>
+                        <br />
+                        <asp:DropDownList ID="DropDownList1" runat="server" Height="21px" Width="219px">
+                        </asp:DropDownList>
+                        <br />
+                        <br />
+                        <br />
+                        <asp:Label ID="Label4" runat="server" Text="Inserir Usuários Administrativos"></asp:Label>
+                        :<br />
+                        <asp:TextBox ID="TextBox1" runat="server" Height="17px" Width="214px"></asp:TextBox>
+                        <br />
+                        <br />
+                        <br />
+                        Inserir Espécies:
+                        <br />
+                        <asp:TextBox ID="TextBox2" runat="server" Height="16px" Width="212px"></asp:TextBox>
+                        <br />
+                        <br />
+                        <br />
+                        <asp:Label ID="Label5" runat="server" Text="Nome: "></asp:Label>
+                        <asp:TextBox ID="TextBox3" runat="server" Width="340px"></asp:TextBox>
+                        <br />
+                        <br />
+                        Senha:
+                        <asp:TextBox ID="TextBox4" runat="server" Width="340px"></asp:TextBox>
+                        <br />
+                        <br />
+                        <asp:Button ID="Button1" runat="server" BackColor="Aqua" BorderStyle="None" Text="Salvar" Width="392px" />
+                    </div>
+                    </td>
+            </tr>                            
+         </table> 
     </form>
 </body>
 </html>

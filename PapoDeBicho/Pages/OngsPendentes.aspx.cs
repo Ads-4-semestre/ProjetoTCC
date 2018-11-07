@@ -13,5 +13,10 @@ namespace PapoDeBicho.Pages
         {
 
         }
+
+        protected void btnAnimal_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
