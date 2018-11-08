@@ -60,19 +60,19 @@
             <tr>
                 <td class="auto-style5">
                     <br />
-                    <asp:Button ID="btnOng" runat="server" Text="ONGs" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px" />
+                    <asp:Button ID="btnOng" runat="server" Text="ONGs" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnOng_Click" />
                     <br />
                     <br />
-                    <asp:Button ID="btnUsuario" runat="server" Text="Usuário" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                    <asp:Button ID="btnUsuario" runat="server" Text="Usuário" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnUsuario_Click"/>
                     <br />
                     <br />
-                    <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                    <asp:Button ID="btnAnimal" runat="server" Text="Animais" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnAnimal_Click"/>
                     <br />
                     <br />
-                    <asp:Button ID="btnPostagens" runat="server" Text="Postagens" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                    <asp:Button ID="btnPostagens" runat="server" Text="Postagens" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnPostagens_Click"/>
                     <br />
                     <br />
-                    <asp:Button ID="btnConfig" runat="server" Text="Configuração" BackColor="#57CDD7" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="228px" Height="56px"/>
+                    <asp:Button ID="btnConfig" runat="server" Text="Configuração" BackColor="#666666" BorderColor="#235357" BorderStyle="None" Font-Bold="True" Font-Names="Arial" ForeColor="White" Width="100%" Height="56px" OnClick="btnConfig_Click"/>
                     <br />
                     <br />
                     <br />
@@ -87,32 +87,35 @@
                         <br />
                         <asp:Label ID="Label3" runat="server" Text="O que desejo ver: "></asp:Label>
                         <br />
-                        <asp:DropDownList ID="DropDownList1" runat="server" Height="21px" Width="219px">
+                        <br />
+                        <asp:DropDownList ID="DropDownList1" runat="server" Height="50px" Width="100%">
                         </asp:DropDownList>
                         <br />
                         <br />
                         <br />
                         <asp:Label ID="Label4" runat="server" Text="Inserir Usuários Administrativos"></asp:Label>
                         :<br />
-                        <asp:TextBox ID="TextBox1" runat="server" Height="17px" Width="214px"></asp:TextBox>
+                        <br />
+                        <asp:TextBox ID="TextBox1" runat="server" Height="17px" Width="100%"></asp:TextBox>
                         <br />
                         <br />
                         <br />
                         Inserir Espécies:
                         <br />
-                        <asp:TextBox ID="TextBox2" runat="server" Height="16px" Width="212px"></asp:TextBox>
+                        <br />
+                        <asp:TextBox ID="TextBox2" runat="server" Height="16px" Width="100%"></asp:TextBox>
                         <br />
                         <br />
                         <br />
                         <asp:Label ID="Label5" runat="server" Text="Nome: "></asp:Label>
-                        <asp:TextBox ID="TextBox3" runat="server" Width="340px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox3" runat="server" Width="257px"></asp:TextBox>
                         <br />
                         <br />
                         Senha:
-                        <asp:TextBox ID="TextBox4" runat="server" Width="340px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" runat="server" Width="257px"></asp:TextBox>
                         <br />
                         <br />
-                        <asp:Button ID="Button1" runat="server" BackColor="Aqua" BorderStyle="None" Text="Salvar" Width="392px" />
+                        <asp:Button ID="Button1" runat="server" BackColor="#666666" BorderStyle="None" Text="Salvar" Width="100%" Font-Bold="True" ForeColor="White" />
                     </div>
                     </td>
             </tr>                            
